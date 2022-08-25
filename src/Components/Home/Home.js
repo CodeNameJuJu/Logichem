@@ -6,6 +6,12 @@ function Home(){
 
     return(
             <div>
+                <div class="jumbotron jumbotron-fluid">
+                    <div class="container landing">
+                        <h1 class="display-4">Logichem Control</h1>
+                        <p class="lead">3 Decades of Electrical, Instrumentation and Control expertise .</p>
+                    </div>
+                </div>
                 <div class='container-xxl p-3 mt-3 bg-light shadow-sm p-3 mb-5 rounded'>
                     <div class='container-fluid container mt-3 bg-light'>
                         <div id="demo" class="carousel slide background-body" data-bs-ride="carousel">
@@ -87,10 +93,10 @@ function Home(){
 
                     <div class='row'>
                         <div class='col-md-5 column-alt'>
-                            <div class='card '>
-                                <h4 class='card-title'>Vision</h4>
+                            <div class='card bg-color'>
+                                <h4 class='card-title'>Our Vision</h4>
                             </div>
-                            <div class='card-body '>
+                            <div class='card-body'>
                                 <p>
                                     After more than 30 years of experience in the engineering sector, the management and team, 
                                     realized that satisfied client are the key to success in a highly competitive industry.
@@ -109,10 +115,10 @@ function Home(){
                         <br />
 
                         <div class='col-md-5 column-alt'>
-                            <div class='card '>
-                                <h4 class='card-title'>Mission</h4>
+                            <div class='card bg-color'>
+                                <h4 class='card-title'>Our Mission</h4>
                             </div>
-                            <div class='card-body '>
+                            <div class='card-body'>
                                 <p>Our position in the engineering field has given us our 30 years of experience. </p>
                                 <br />
                                 <p>30 years of excellent project execution, dedicated engineers, innovation and implementation of all EC&I related activities and a work environment which is open and encouraged for learning.</p>
@@ -150,7 +156,7 @@ function Home(){
                         <br />
 
                         <div class='card card-header'>
-                            <h4>Values</h4>
+                            <h4>Our Values</h4>
                         </div>
                         <div class='row'>
                             <div class = 'card values column'>

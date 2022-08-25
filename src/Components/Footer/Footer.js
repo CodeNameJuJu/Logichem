@@ -42,7 +42,7 @@ function Footer(){
                     </li>
                 </ul>
                 <div>
-                    <p class='text-start text-muted'>© 2022 Logichem, All rights reserved. Designed by Stone Software</p>
+                    <p class='text-start text-muted'>© 2022 Copyright, All rights reserved. Designed by Stone Software</p>
                 </div>
             </div>
 

@@ -3,6 +3,12 @@
     padding: 0;
     box-sizing: border-box;
   }
+
+  .landing{
+    color: white;
+    text-align: center;
+    padding: 15px;
+  }
   
   .link-text{
     text-decoration: none;
@@ -127,6 +133,10 @@
     background-color: #6f93e1;
   }
 
+  .bg-color{
+    background-color: #3B5998;
+    color: white;
+  }
   
   
 

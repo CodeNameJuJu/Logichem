@@ -7,19 +7,33 @@ function Services(){
     return(
 
         <div class='container-xxl p-3 mt-3 bg-light shadow-sm p-3 mb-5 rounded'>
-            <h1>Services</h1>
-            <h1>E</h1>
-            <h1>C</h1>
-            <h1>&</h1>
-            <h1>I</h1>
-            <h2>Electrical Control & Instrumentation</h2>
-            <h3>Our Services:</h3>
-            <h2>Mineral Mining</h2>
-            <h2>Platinum</h2>
-            <h2>Gold</h2>
-            <h2>Energy</h2>
-            <h2>Water Processing</h2>
-            <h2>Processes</h2>
+            <div>
+                <h2>Our Services</h2>
+                <h2>EC&I</h2>
+                <h3>Electrical Control & Instrumentation</h3>
+            </div>
+            <div class='row'>
+                <div class='card column'>
+                    <h4 class='card-title'>Mineral Mining</h4>
+                </div>
+                <div class='card column'>
+                    <h4 class='card-title'>Platinum</h4>
+                </div>
+                <div class='card column'>
+                    <h4 class='card-title'>Gold</h4>
+                </div>
+            </div>
+            <div class='row'>
+                <div class='card column'>
+                    <h4 class='card-title'>Energy</h4>
+                </div>
+                <div class='card column'>
+                    <h4 class='card-title'>Water Processing</h4>
+                </div>
+                <div class='card column'>
+                    <h4 class='card-title'>Processes</h4>
+                </div>
+            </div>
         </div>
 
     )

@@ -10,7 +10,7 @@ function Navbar(){
             <nav class='navbar navbar-expand-sm'>
                 <div class='container-fluid'>
                     <Link class='navbar-brand' to='/' title='Logichem'>
-                        <img src='Logo.jpeg' alt='#' width='320' height='75'/>
+                        <img src='Logo.jpeg' alt='#' width='320' height='95'/>
                     </Link>
                     <button class='navbar-toggler' type='button' data-bs-toggle='collapse'>
                         <span class='navbar-toggler-icon'></span>
