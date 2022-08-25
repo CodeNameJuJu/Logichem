@@ -152,38 +152,44 @@ function Home(){
                             <h4>Our Values</h4>
                         </div>
                         <div class='row'>
-                            <div class = 'card values column'>
+                            <div class = 'card values column-tiny'>
                                 <div class='card-body '>
-                                    <h5 class='card-title'>Determination</h5>
+                                    <p class='card-title'>Determination</p>
                                 </div>
                             </div>
-                            <div class = 'card values column'>
+                            <div class = 'card values column-tiny'>
                                 <div class='card-body '>
-                                    <h5 class='card-title'>Sufficiency</h5>
+                                    <p class='card-title'>Sufficiency</p>
                                 </div>
                             </div>
-                            <div class = 'card values column'>
+                            <div class = 'card values column-tiny'>
                                 <div class='card-body '>
-                                    <h5 class='card-title'>Trust</h5>
+                                    <p class='card-title'>Trust</p>
                                 </div>
                             </div>
-                        </div>
-                        <div class='row'>
-                            <div class = 'card values column'>
+                            <div class = 'card values column-tiny'>
                                 <div class='card-body '>
-                                    <h5 class='card-title'>Efficiency</h5>
+                                    <p class='card-title'>Efficiency</p>
                                 </div>
                             </div>
-                            <div class = 'card values column'>
+                            <div class = 'card values column-tiny'>
                                 <div class='card-body '>
-                                    <h5 class='card-title'>Effectiveness</h5>
+                                    <p class='card-title'>Effectiveness</p>
                                 </div>
                             </div>
-                            <div class = 'card values column'>
+                            <div class = 'card values column-tiny'>
                                 <div class='card-body '>
-                                    <h5 class='card-title'>Hard work</h5>
+                                    <p class='card-title'>Hard work</p>
                                 </div>
                             </div>
+                            <div class="view">  
+                                <img src='Omnia.jpg' alt='#' width='250px' height='200px'/>  
+                                <div class="mask">  
+                                <h2>Omnia</h2>
+                                <p>Text area</p>
+                                    <a href="#" class="info">Read More</a>  
+                                </div>  
+                            </div> 
                         </div>
                     </div>
                 </div>

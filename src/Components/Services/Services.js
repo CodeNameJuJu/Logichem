@@ -7,7 +7,7 @@ function Services(){
     return(
 
         <div class='container-xxl p-3 mt-3 bg-light shadow-sm p-3 mb-5 rounded'>
-            <div>
+            <div class='text-center'>
                 <h2>Our Services</h2>
                 <h2>EC&I</h2>
                 <h3>Electrical Control & Instrumentation</h3>
