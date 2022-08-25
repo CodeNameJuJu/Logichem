@@ -181,14 +181,6 @@ function Home(){
                                 <div class='card-body '>
                                     <p class='card-title'>Hard work</p>
                                 </div>
-                            </div>
-                            <div class="view">  
-                                <img src='Omnia.jpg' alt='#' width='250px' height='200px'/>  
-                                <div class="mask">  
-                                <h2>Omnia</h2>
-                                <p>Text area</p>
-                                    <a href="#" class="info">Read More</a>  
-                                </div>  
                             </div> 
                         </div>
                     </div>
