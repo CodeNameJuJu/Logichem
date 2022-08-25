@@ -86,12 +86,11 @@ function Home(){
                     </div>
 
                     <div class='row'>
-                        <div class='col-md-5'>
-
-                            <div class='card'>
+                        <div class='col-md-5 column-alt'>
+                            <div class='card '>
                                 <h4 class='card-title'>Vision</h4>
                             </div>
-                            <div class='card-body column-alt'>
+                            <div class='card-body '>
                                 <p>
                                     After more than 30 years of experience in the engineering sector, the management and team, 
                                     realized that satisfied client are the key to success in a highly competitive industry.
@@ -109,11 +108,11 @@ function Home(){
                         <br />
                         <br />
 
-                        <div class='col-md-5'>
-                            <div class='card'>
+                        <div class='col-md-5 column-alt'>
+                            <div class='card '>
                                 <h4 class='card-title'>Mission</h4>
                             </div>
-                            <div class='card-body column-alt'>
+                            <div class='card-body '>
                                 <p>Our position in the engineering field has given us our 30 years of experience. </p>
                                 <br />
                                 <p>30 years of excellent project execution, dedicated engineers, innovation and implementation of all EC&I related activities and a work environment which is open and encouraged for learning.</p>
@@ -153,34 +152,38 @@ function Home(){
                         <div class='card card-header'>
                             <h4>Values</h4>
                         </div>
-                        <div class = 'card values'>
-                            <div class='card-body'>
-                                <h5 class='card-title'>Determination</h5>
+                        <div class='row'>
+                            <div class = 'card values column'>
+                                <div class='card-body '>
+                                    <h5 class='card-title'>Determination</h5>
+                                </div>
+                            </div>
+                            <div class = 'card values column'>
+                                <div class='card-body '>
+                                    <h5 class='card-title'>Sufficiency</h5>
+                                </div>
+                            </div>
+                            <div class = 'card values column'>
+                                <div class='card-body '>
+                                    <h5 class='card-title'>Trust</h5>
+                                </div>
                             </div>
                         </div>
-                        <div class = 'card values'>
-                            <div class='card-body'>
-                                <h5 class='card-title'>Sufficiency</h5>
+                        <div class='row'>
+                            <div class = 'card values column'>
+                                <div class='card-body '>
+                                    <h5 class='card-title'>Efficiency</h5>
+                                </div>
                             </div>
-                        </div>
-                        <div class = 'card values'>
-                            <div class='card-body'>
-                                <h5 class='card-title'>Trust</h5>
+                            <div class = 'card values column'>
+                                <div class='card-body '>
+                                    <h5 class='card-title'>Effectiveness</h5>
+                                </div>
                             </div>
-                        </div>
-                        <div class = 'card values'>
-                            <div class='card-body'>
-                                <h5 class='card-title'>Efficiency</h5>
-                            </div>
-                        </div>
-                        <div class = 'card values'>
-                            <div class='card-body'>
-                                <h5 class='card-title'>Effectiveness</h5>
-                            </div>
-                        </div>
-                        <div class = 'card values'>
-                            <div class='card-body'>
-                                <h5 class='card-title'>Hard work</h5>
+                            <div class = 'card values column'>
+                                <div class='card-body '>
+                                    <h5 class='card-title'>Hard work</h5>
+                                </div>
                             </div>
                         </div>
                     </div>
