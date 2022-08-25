@@ -103,6 +103,18 @@
     padding: 20px;
   }
   
+  .column-alt {
+    float: left;
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .row{
+    text-align: center;
+    padding: 20px;
+  }
+
   .row::after {
     clear: both;
     display: flex;

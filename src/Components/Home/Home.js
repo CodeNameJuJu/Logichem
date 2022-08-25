@@ -85,16 +85,13 @@ function Home(){
 
                     </div>
 
-                    <div class='section-4'>
-                        <div class='container mt-3 text-center text col-md-5 row'>
-
-                            <br />
-                            <br />
+                    <div class='row'>
+                        <div class='col-md-5'>
 
                             <div class='card'>
                                 <h4 class='card-title'>Vision</h4>
                             </div>
-                            <div class='card-body column'>
+                            <div class='card-body column-alt'>
                                 <p>
                                     After more than 30 years of experience in the engineering sector, the management and team, 
                                     realized that satisfied client are the key to success in a highly competitive industry.
@@ -112,16 +109,16 @@ function Home(){
                         <br />
                         <br />
 
-                        <div class='container mt-3 text-center text col-md-5 row'>
+                        <div class='col-md-5'>
                             <div class='card'>
                                 <h4 class='card-title'>Mission</h4>
                             </div>
-                            <div class='card-body column'>
-                                <h5>Our position in the engineering field has given us our 30 years of experience. </h5>
+                            <div class='card-body column-alt'>
+                                <p>Our position in the engineering field has given us our 30 years of experience. </p>
                                 <br />
-                                <h5>30 years of excellent project execution, dedicated engineers, innovation and implementation of all EC&I related activities and a work environment which is open and encouraged for learning.</h5>
+                                <p>30 years of excellent project execution, dedicated engineers, innovation and implementation of all EC&I related activities and a work environment which is open and encouraged for learning.</p>
                                 <br />
-                                <h5>We will keep and improve this work ethic, management approach and engineering application for the coming 30 years.</h5>
+                                <p>We will keep and improve this work ethic, management approach and engineering application for the coming 30 years.</p>
                             </div>
 
                             <br />
