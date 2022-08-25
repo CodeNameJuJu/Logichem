@@ -19,6 +19,10 @@ function Footer(){
                         competitive costing as well as an unbiased approach in the selection of suppliers.
                     </strong>
                 </pre>
+                
+                <br/>
+                <br/>
+                
                 <ul class='nav justify-content-center border-bottom pb-3 mb-3'>
                     <li class='nav-item'>
                         <Link class='nav-link footer-icon' to='/' title='Home'>

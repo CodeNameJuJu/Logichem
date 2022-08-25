@@ -3,12 +3,6 @@
     padding: 0;
     box-sizing: border-box;
   }
-
-  .landing{
-    color: white;
-    text-align: center;
-    padding: 15px;
-  }
   
   .link-text{
     text-decoration: none;
@@ -19,28 +13,6 @@
     color: #3B5998;
     text-decoration: underline;
     text-decoration-color: #3B5998;
-  }
-
-  .right{
-
-      position: absolute;
-      top: 230px;
-      left: 700px;
-
-  }
-
-  .img-1{
-
-    position: absolute;
-    left: 150px;
-
-  }
-
-
-  .left{
-
-      padding-left: 25px;
-
   }
 
   .footer {
@@ -66,12 +38,6 @@
   .backgrnd{
 
   background-color: rgb(190, 190, 190);
-
-  }
-
-  .contact-details{
-
-    padding-left: 30px;
 
   }
 
@@ -137,8 +103,21 @@
     background-color: #3B5998;
     color: white;
   }
-  
-  
 
+  .map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+  }
+  .map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+  }
+  
+  
 
 

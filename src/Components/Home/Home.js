@@ -6,12 +6,6 @@ function Home(){
 
     return(
             <div>
-                <div class="jumbotron jumbotron-fluid">
-                    <div class="container landing">
-                        <h1 class="display-4">Logichem Control</h1>
-                        <p class="lead">3 Decades of Electrical, Instrumentation and Control expertise .</p>
-                    </div>
-                </div>
                 <div class='container-xxl p-3 mt-3 bg-light shadow-sm p-3 mb-5 rounded'>
                     <div class='container-fluid container mt-3 bg-light'>
                         <div id="demo" class="carousel slide background-body" data-bs-ride="carousel">
@@ -103,10 +97,9 @@ function Home(){
                                     Therefor our vision for the next 30 years is:
                                 </p>
                                 <br />
-                                <br />
-                                <h5>To continue our hard work and dedication.</h5>
-                                <h5>To strive for more excellence and innovation.</h5>
-                                <h5>To improve project execution and client satisfaction.</h5>
+                                <h6>To continue our hard work and dedication.</h6>
+                                <h6>To strive for more excellence and innovation.</h6>
+                                <h6>To improve project execution and client satisfaction.</h6>
                             </div>
 
                         </div>
