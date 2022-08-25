@@ -5,7 +5,6 @@ function Home(){
     window.scrollTo(0, 0);
 
     return(
-        <div>
             <div>
                 <div class='container-xxl p-3 mt-3 bg-light shadow-sm p-3 mb-5 rounded'>
                     <div class='container-fluid container mt-3 bg-light'>
@@ -38,6 +37,12 @@ function Home(){
                     <br />
                     
                     <div class='container mt-3 text-center text'>
+
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+
                         <div class='border-bottom pb-3 mb-3'>
                             <h3>History</h3>
                         </div>
@@ -53,30 +58,41 @@ function Home(){
                                 Work ethic for us, revolves around finding the best equipment to meet the project requirements by not designing a solution around the equipment and its capabilities.
                             </p> 
                         </div>
+
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+
                     </div>
 
                     <br />
                     <br />
 
-                    <div>
-                        <div class='container mt-3 text-center text col-md-3 img-1'>
-                            <img src="Manica.jpeg" alt="#" class="d-block image-screen" width='400' height='200' />
-                        </div>
-                        <div class='container mt-3 text-center text col-md-3 img-2'>
-                            <img src="Manica.jpeg" alt="#" class="d-block image-screen" width='400' height='200' />
-                        </div>
-                        <div class='container mt-3 text-center text col-md-3 img-3'>
-                            <img src="Manica.jpeg" alt="#" class="d-block image-screen" width='400' height='200' />
-                        </div>
-                    </div>
+                    <div class='row'>
 
-                    <br />
-                    <br />
-                    <br />
-                    <br />
+                        <div class='column'>
+                            <img src='Manica.jpeg' alt='#' width = '100%'/>
+                        </div> 
+
+                        <div class='column'>
+                            <img src='Manica.jpeg' alt='#' width = '100%'/>
+                        </div> 
+
+                        <div class='column'>
+                            <img src='Manica.jpeg' alt='#' width = '100%'/>
+                        
+
+                    </div>
 
                     <div class='section-4'>
                         <div class='container mt-3 text-center text col-md-5 vision'>
+
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+
                             <div class='border-bottom pb-3 mb-3'>
                                 <h4>Vision</h4>
                             </div>
@@ -112,50 +128,53 @@ function Home(){
                                 <h5>We will keep and improve this work ethic, management approach and engineering application for the coming 30 years.</h5>
                             </div>
 
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+
                         </div>
                     </div>
 
-                    <br />
-                    <br />
+                    <div class='row'>
 
-                    <div class='section-5'>
-                        <div>
-                            <div class='container mt-3 text-center text col-md-3 img-1'>
-                                <img src="Metalong.jpg" alt="#" class="d-block image-screen" width='400' height='200' />
-                            </div>
-                            <div class='container mt-3 text-center text col-md-3 img-2'>
-                                <img src="Metalong.jpg" alt="#" class="d-block image-screen" width='400' height='200' />
-                            </div>
-                            <div class='container mt-3 text-center text col-md-3 img-3'>
-                            <   img src="Metalong.jpg" alt="#" class="d-block image-screen" width='400' height='200' />
-                            </div>
-                        </div>
+                        <div class='column'>
+                            <img src='Omnia.jpg' alt='#' width = '100%'/>
+                        </div> 
+
+                        <div class='column'>
+                            <img src='Omnia.jpg' alt='#' width = '100%'/>
+                        </div> 
+
+                        <div class='column'>
+                            <img src='Omnia.jpg' alt='#' width = '100%'/>
                     </div>
-
-                    <br />
-                    <br />
-                    <br />
-                    <br />
 
                     <div class='container mt-3 text-center text values'>
+
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+
                         <div class='border-bottom pb-3 mb-3'>
                             <h4>Values</h4>
                         </div>
                         <div class = 'fancy-values'>
                             <ul>
-                                <li><a href='#' data-text='Determination'>Determination</a></li>
-                                <li><a href='#' data-text='Determination'>Sufficiency</a></li>
-                                <li><a href='#' data-text='Determination'>Trust</a></li>
-                                <li><a href='#' data-text='Determination'>Efficiency</a></li>
-                                <li><a href='#' data-text='Determination'>Effectiveness</a></li>
-                                <li><a href='#' data-text='Determination'>Hard work</a></li>
+                                <li>Determination</li>
+                                <li>Sufficiency</li>
+                                <li>Trust</li>
+                                <li>Efficiency</li>
+                                <li>Effectiveness</li>
+                                <li>Hard work</li>
                             </ul>
                         </div>
-
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 
     )
 

@@ -26,7 +26,7 @@ function Footer(){
                         </Link>
                     </li>
                     <li class='nav-item'>
-                        <Link class='nav-link footer-icon btn-looking' to='/Services' title='Services'>
+                        <Link class='nav-link footer-icon' to='/Services' title='Services'>
                             <i class='bx bx-hard-hat bx-sm' />
                         </Link>
                     </li>
