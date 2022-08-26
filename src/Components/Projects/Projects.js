@@ -8,8 +8,8 @@ function Projects(){
 
         <div class='container p-3 mt-3 bg-light shadow-sm p-3 mb-5 rounded'>
             <div class='row'>
-                <div class='text-center'>
-                    <h2>Our Projects</h2>
+                <div class='text-center typing'>
+                    <h2 class='typing-effect'>Our Projects</h2>
                 </div>
 
                 <div class="view">  

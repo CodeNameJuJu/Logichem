@@ -7,7 +7,6 @@ function Navbar(){
     return(
 
         <>
-
             <div class='bg-white sticky-top border-bottom pb-3 mb-3 shadow-sm p-3 mb-5 bg-body rounded'>
                 <nav class='navbar navbar-expand-sm'>
                     <div class='container-fluid'>

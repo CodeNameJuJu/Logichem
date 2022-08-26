@@ -43,8 +43,8 @@ function Home(){
                         <br />
                         <br />
 
-                        <div class='border-bottom pb-3 mb-3'>
-                            <h3>History</h3>
+                        <div class='border-bottom pb-3 mb-3 typing'>
+                            <h3 class='typing-effect'>Our History</h3>
                         </div>
                         <div>
                             <p>
