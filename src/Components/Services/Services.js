@@ -8,7 +8,7 @@ function Services(){
 
         <div class='container'>
             <div class="checklist text-center card-header">
-                    <h2>Our Services</h2>
+                    <h2 class='typing typing-effect'>Our Services</h2>
                     <br/>
                     <h2>Electrical Control & Instrumentation</h2>
                     <br/>

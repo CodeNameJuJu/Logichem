@@ -16,13 +16,13 @@ function Home(){
                             </div>
                             <div class="carousel-inner image-screen">
                                 <div class="carousel-item active">
-                                    <img src="Omnia.jpg" alt="#" class="d-block image-screen" width='1400' height='800' />
+                                    <img src="./Project Photos/EDS/1 MCC-4.jpg" alt="#" class="d-block image-screen" width='1400' height='800' />
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="Omnia.jpg" alt="#" class="d-block image-screen" width='1400' height='800' />
+                                    <img src="./Project Photos/New Denmark/3c3d32b2-613c-4da6-9e05-2c490b608db0.JPG" alt="#" class="d-block image-screen" width='1400' height='800' />
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="Omnia.jpg" alt="#" class="d-block image-screen" width='1400' height='800' />
+                                    <img src="./Project Photos/EDS/6.jpg" alt="#" class="d-block image-screen" width='1400' height='800' />
                                 </div>
                             </div>
                             <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
@@ -43,8 +43,8 @@ function Home(){
                         <br />
                         <br />
 
-                        <div class='border-bottom pb-3 mb-3 typing'>
-                            <h3 class='typing-effect'>Our History</h3>
+                        <div class='border-bottom pb-3 mb-3'>
+                            <h3>History</h3>
                         </div>
                         <div>
                             <p>
@@ -72,15 +72,15 @@ function Home(){
                     <div class='row'>
 
                         <div class='column'>
-                            <img src='Manica.jpeg' alt='#' width = '100%'/>
+                            <img src='./Project Photos/Water/1.jpg' alt='#' width = '100%' height='300px'/>
                         </div> 
 
                         <div class='column'>
-                            <img src='Manica.jpeg' alt='#' width = '100%'/>
+                            <img src='./Project Photos/Water/4.jpg' alt='#' width = '100%' height='300px'/>
                         </div> 
 
                         <div class='column'>
-                            <img src='Manica.jpeg' alt='#' width = '100%'/>
+                            <img src='./Project Photos/Water/3.jpg' alt='#' width = '100%' height='300px'/>
                         
 
                     </div>
@@ -130,15 +130,15 @@ function Home(){
                     <div class='row'>
 
                         <div class='column'>
-                            <img src='Omnia.jpg' alt='#' width = '100%'/>
+                            <img src='./Project Photos/Gold/1.jpeg' alt='#' width = '100%' height='300px'/>
                         </div> 
 
                         <div class='column'>
-                            <img src='Omnia.jpg' alt='#' width = '100%'/>
+                            <img src='./Project Photos/Gold/2.jpeg' alt='#' width = '100%' height='300px'/>
                         </div> 
 
                         <div class='column'>
-                            <img src='Omnia.jpg' alt='#' width = '100%'/>
+                            <img src='./Project Photos/Gold/3.jpg' alt='#' width = '100%' height='300px'/>
                     </div>
 
                     <div class='container mt-3 text-center text'>
@@ -148,41 +148,50 @@ function Home(){
                         <br />
                         <br />
 
-                        <div class='card card-header'>
+                        <div class='card card-header bg-color'>
                             <h4>Our Values</h4>
                         </div>
-                        <div class='row'>
-                            <div class = 'card values column-tiny'>
-                                <div class='card-body '>
-                                    <p class='card-title'>Determination</p>
+
+                        <main>
+                            <br/>
+                            <details open>
+                                <summary class='bg-color'>Determination</summary>
+                                <div class="tab-content">
+                                <p>your text goes here</p>
                                 </div>
-                            </div>
-                            <div class = 'card values column-tiny'>
-                                <div class='card-body '>
-                                    <p class='card-title'>Sufficiency</p>
+                            </details>
+                            <details>
+                                <summary class='bg-color'>Sufficiency</summary>
+                                <div class="tab-content">
+                                <p>your text goes here</p>
                                 </div>
-                            </div>
-                            <div class = 'card values column-tiny'>
-                                <div class='card-body '>
-                                    <p class='card-title'>Trust</p>
+                            </details>
+                            <details>
+                                <summary class='bg-color'>Trust</summary>
+                                <div class="tab-content">
+                                <p>your text goes here</p>
                                 </div>
-                            </div>
-                            <div class = 'card values column-tiny'>
-                                <div class='card-body '>
-                                    <p class='card-title'>Efficiency</p>
+                            </details>
+                            <details>
+                                <summary class='bg-color'>Efficiency</summary>
+                                <div class="tab-content">
+                                <p>your text goes here</p>
                                 </div>
-                            </div>
-                            <div class = 'card values column-tiny'>
-                                <div class='card-body '>
-                                    <p class='card-title'>Effectiveness</p>
+                            </details>
+                            <details>
+                                <summary class='bg-color'>Effectiveness</summary>
+                                <div class="tab-content">
+                                <p>your text goes here</p>
                                 </div>
-                            </div>
-                            <div class = 'card values column-tiny'>
-                                <div class='card-body '>
-                                    <p class='card-title'>Hard work</p>
+                            </details>
+                            <details>
+                                <summary class='bg-color'>Hard work</summary>
+                                <div class="tab-content">
+                                <p>your text goes here</p>
                                 </div>
-                            </div> 
-                        </div>
+                            </details>
+                        </main>
+                        
                     </div>
                 </div>
             </div>
