@@ -6,13 +6,14 @@ import Projects from './Components/Projects/Projects';
 import Services from './Components/Services/Services';
 import Contact from './Components/Contact/Contact';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import background from './Background/9fd1e71e-178b-4359-9c82-ac4a20da3404.JPG';
 
 function App() {
   return (
     <div>
       <BrowserRouter>
         <Navbar />
-        <div>
+        <div style={{ backgroundImage: `url(${background})` , backgroundrepeat: 'no-repeat'}}>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/Services" element={<Services />} />
