@@ -1,29 +1,29 @@
-import React, { useState } from 'react';
+import React, {useState} from 'react';
 
 const Contact = () => {
-    const [status, setStatus] = useState("Submit");
-    const handleSubmit = async (e) => {
-      e.preventDefault();
-      setStatus("Sending...");
-      const { name, email, message } = e.target.elements;
-      let details = {
-        name: name.value,
-        email: email.value,
-        message: message.value,
-      };
-      let response = await fetch("http://localhost:5000/contact", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json;charset=utf-8",
-        },
-        body: JSON.stringify(details),
-      });
-      setStatus("Submit");
-      let result = await response.json();
-      alert(result.status);
-    };
+    const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
+    const [message, setMessage] = useState('');
+    const [emailSent, setEmailSent] = useState(false);
 
     window.scrollTo(0, 0);
+
+    const submit = () => {
+        if (name && email && message) {
+    
+            setName('');
+            setEmail('');
+            setMessage('');
+            setEmailSent(true);
+        } else {
+            alert('Please fill in all fields.');
+        }
+    }
+
+    const isValidEmail = email => {
+        const regex = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+        return regex.test(String(email).toLowerCase());
+    };
 
     return(
 
@@ -42,44 +42,27 @@ const Contact = () => {
 
                 <div class='col'>
                     <br/>
-                    <form
-                        onSubmit={handleSubmit()}
-                    >
+                    <form>
                         <div className="mb-3 pt-0">
-                            <input
-                                type="text"
-                                placeholder="Name"
-                                name="name"
-                                className="form-control px-3 py-3 placeholder-gray-400 text-gray-600 relative bg-white bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full"
-                                required
+                            <input type="text" placeholder="Your Name" value={name} onChange={e => setName(e.target.value)} 
+                                   className="form-control px-3 py-3 placeholder-gray-400 text-gray-600 relative bg-white bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full"
                             />
                         </div>
                         <div className="mb-3 pt-0">
-                            <input
-                                type="email"
-                                placeholder="Email"
-                                name="email"
-                                className="form-control px-3 py-3 placeholder-gray-400 text-gray-600 relative bg-white bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full"
-                                required
+                            <input type="email" placeholder="Your email address" value={email} onChange={e => setEmail(e.target.value)} 
+                                   className="form-control px-3 py-3 placeholder-gray-400 text-gray-600 relative bg-white bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full"
                             />
                         </div>
                         <div className="mb-3 pt-0">
-                            <textarea
-                                placeholder="Message"
-                                name="message"
-                                className="form-control px-3 py-3 placeholder-gray-400 text-gray-600 relative bg-white bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full"
-                                required
-                            />
+                            <textarea placeholder="Your message" value={message} onChange={e => setMessage(e.target.value)}
+                                      className="form-control px-3 py-3 placeholder-gray-400 text-gray-600 relative bg-white bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full"
+                            ></textarea>
                         </div>
                         <br />
                         <div className="mb-3 pt-0">
-                            <button
-                                className="btn btn-primary"
-                                type="submit"
-                            >
-                            {status}
-                            </button>
+                            <button className = "btn btn-primary" onClick={submit}>Send Message</button>
                         </div>
+                        <span className={emailSent ? 'visible' : null}>Thank you for your message, we will be in touch in no time!</span>
                     </form>
                 <br />
                 <br />
@@ -97,8 +80,8 @@ const Contact = () => {
             </div>
         </div>
 
-    )
+    );
 
-}
+};
 
 export default Contact;

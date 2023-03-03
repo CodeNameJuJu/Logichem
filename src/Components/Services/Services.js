@@ -6,8 +6,9 @@ function Services(){
 
     return(
 
+    <>
         <div class='container'>
-            <div class="checklist text-center card-header">
+            <div class="checklist text-center card-header bg-color">
                     <h2 class='typing typing-effect'>Our Services</h2>
                     <br/>
                     <h2>Electrical Control & Instrumentation</h2>
@@ -47,6 +48,7 @@ function Services(){
             </div>
 
         </div>
+    </>
 
     )
 

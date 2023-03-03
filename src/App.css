@@ -113,7 +113,7 @@
   }
 
   .bg-color{
-    background-color: #3B5998;
+    background-color: rgba(54, 69, 119, 0.9);
     color: white;
   }
 
@@ -223,7 +223,7 @@
 .checklist {
 	padding: 50px;
 	position: relative;
-	background: #3B5998;
+	background: #364577;
 }
 .checklist h2 {
 	color: #f3f3f3;
@@ -297,6 +297,7 @@ main p {
     font-size: 13px;
 }
 summary {
+  text-align: left;
   font-size: 1rem;
   font-weight: 600;
   background-color: #f3f3f3;
