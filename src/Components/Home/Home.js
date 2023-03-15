@@ -14,35 +14,6 @@ function Home(){
 
             <div>
                 <div class='container-xxl p-3 mt-3 bg-color mb-5'>
-                    <div class='container-fluid container mt-3 bg-color'>
-                        <div id="demo" class="carousel slide background-body" data-bs-ride="carousel">
-                            <div class="carousel-indicators">
-                                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-                                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-                                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-                            </div>
-                            <div class="carousel-inner image-screen">
-                                <div class="carousel-item active">
-                                    <img src="./Project Photos/EDS/1 MCC-4.jpg" alt="#" class="image-screen" width='1400' height='600' />
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="./Project Photos/New Denmark/3c3d32b2-613c-4da6-9e05-2c490b608db0.JPG" alt="#" class="image-screen" width='1400' height='600' />
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="./Project Photos/EDS/6.jpg" alt="#" class="image-screen" width='1400' height='600' />
-                                </div>
-                            </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon"></span>
-                            </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-                                <span class="carousel-control-next-icon"></span>
-                            </button>
-                        </div>
-                    </div>
-
-                    <br />
-                    
                     <div class='container mt-3 text-center text'>
 
                         <br />
@@ -145,19 +116,19 @@ function Home(){
                                     <details>
                                         <summary class='bg-color card-title'>Determination</summary>
                                         <div class="tab-content card-body">
-                                        <p>your text goes here</p>
+                                        <p>We are persistent and commitment to achieve a challenging goal despite encountering obstacles, and it is a crucial characteristic for us to possess when solving complex problems.</p>
                                         </div>
                                     </details>
                                     <details>
                                         <summary class='bg-color card-title'>Sufficiency</summary>
                                         <div class="tab-content card-body">
-                                        <p>your text goes here</p>
+                                        <p>The sufficiency strategy encourages optimizing resource utilization and minimizing waste, resulting in the creation of sustainable solutions that meet the necessary functional requirements.</p>
                                         </div>
                                     </details>
                                     <details>
                                         <summary class='bg-color card-title'>Trust</summary>
                                         <div class="tab-content card-body">
-                                        <p>your text goes here</p>
+                                        <p>It is built on the foundation of reliability, accuracy, and safety. We must ensure that our designs and products are trustworthy by following established standards and regulations, performing rigorous testing, and maintaining transparency with stakeholders.</p>
                                         </div>
                                     </details>
                                 </main>
@@ -168,19 +139,19 @@ function Home(){
                                     <details>
                                         <summary class='bg-color card-title'>Efficiency</summary>
                                         <div class="tab-content card-body">
-                                        <p>your text goes here</p>
+                                        <p>The ability to produce high-quality services while utilizing minimum resources, including time, energy, and materials. Efficient engineering practices enable the creation of cost-effective solutions that meet customer requirements.</p>
                                         </div>
                                     </details>
                                     <details>
                                         <summary class='bg-color card-title'>Effectiveness</summary>
                                         <div class="tab-content card-body">
-                                        <p>your text goes here</p>
+                                        <p>Measuring the degree to which a product or process achieves its intended purpose, and is a key metric for evaluating the success of all our projects. Our effective EC&! engineering solutions meet customer needs, are reliable, and provide value.</p>
                                         </div>
                                     </details>
                                     <details>
                                         <summary class='bg-color card-title'>Hard work</summary>
                                         <div class="tab-content card-body">
-                                        <p>your text goes here</p>
+                                        <p>Our projects require significant effort, dedication, and perseverance to succeed. We must possess strong work ethics and be willing to put in the hard work necessary to overcome challenges, solve problems, and deliver high-quality solutions.</p>
                                         </div>
                                     </details>
                                 </main>

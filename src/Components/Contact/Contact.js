@@ -1,7 +1,6 @@
 import React, {useRef} from 'react';
 import emailjs from '@emailjs/browser';
 
-
 export const Contact = () => {
     const form = useRef();
 
@@ -15,9 +14,10 @@ export const Contact = () => {
             }, (error) => {
                 console.log(error.text);
             })
-
     };
 
+    window.scrollTo(0, 0);
+    
     return(
 
             <div class='container p-3 mt-3 shadow-sm p-3 mb-5 rounded backgrnd'>
@@ -62,7 +62,6 @@ export const Contact = () => {
                     <div>
                         <i class='bx bxs-envelope' ></i>Email: <a href='mailto:info@logichem.co.za' title='Email Link'>info@logichem.co.za</a><br/>
                         <i class='bx bxs-phone'></i>Telephone: 011 465 2718<br/>
-                        <a href="https://www.facebook.com/login/" class="fa fa-facebook"> </a>
                         <a href="https://www.linkedin.com/company/logichem-control-pty-ltd/" class="fa fa-linkedin"> </a>
                     </div>
 
