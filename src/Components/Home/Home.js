@@ -1,4 +1,10 @@
 import React from 'react';
+import {
+    ComposableMap,
+    Geographies,
+    Geography,
+  } from 'react-simple-maps';
+  
 
 function Home(){
 
@@ -40,9 +46,6 @@ function Home(){
                     <div class='container mt-3 text-center text'>
 
                         <br />
-                        <br />
-                        <br />
-                        <br />
 
                         <div class='border-bottom pb-3 mb-3'>
                             <h3>History</h3>
@@ -61,33 +64,15 @@ function Home(){
                         </div>
 
                             <br />
-                            <br />
-                            <br />
-                            <br />
 
                     </div>
 
                     <br />
-                    <br />
-
-                    <div class='row'>
-
-                        <div class='column'>
-                            <img src='./Project Photos/Water/1.jpg' alt='#' width = '100%' height='300px'/>
-                        </div> 
-
-                        <div class='column'>
-                            <img src='./Project Photos/Water/4.jpg' alt='#' width = '100%' height='300px'/>
-                        </div> 
-
-                        <div class='column'>
-                            <img src='./Project Photos/Water/3.jpg' alt='#' width = '100%' height='300px'/>
-                        
-
-                    </div>
-
+                    
                     <div class='row'>
                         <div class='col-md-5 column-alt'>
+                            <br />
+                            <br />
                             <div>
                                 <h4 class='card-title'>Our Vision</h4>
                             </div>
@@ -109,6 +94,8 @@ function Home(){
                         <br />
 
                         <div class='col-md-5 column-alt'>
+                            <br />
+                            <br />
                             <div>
                                 <h4 class='card-title'>Our Mission</h4>
                             </div>
@@ -120,9 +107,6 @@ function Home(){
                                 <p>We will keep and improve this work ethic, management approach and engineering application for the coming 30 years.</p>
                             </div>
 
-                            <br />
-                            <br />
-                            <br />
                             <br />
 
                         </div>
@@ -204,7 +188,27 @@ function Home(){
 
                         </div>
                     </div>
+
                 </div>
+            </div>
+            <div>
+                <div class='row bg-white logo-banner'>
+
+                    <div class='col'>
+                        <img src='./EDS.jpg' alt='#' width = '60%' height='125px'/>
+                    </div> 
+
+                    <div class='col'>
+                        <img src='./EHL.png' alt='#' width = '65%' height='125px'/>
+                    </div> 
+
+                    <div class='col'>
+                        <img src='./Howden.png' alt='#' width = '60%' height='125px'/>
+                    </div>
+
+                    <div class='col'>
+                        <img src='./LP.png' alt='#' width = '55%' height='125px'/>
+                    </div>
             </div>
         </div>
     </div>

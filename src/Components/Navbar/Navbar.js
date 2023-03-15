@@ -7,11 +7,11 @@ function Navbar(){
     return(
 
         <>
-            <div class='bg-white sticky-top border-bottom pb-3 mb-3 shadow-sm p-3 mb-5 bg-body rounded'>
+            <div class='bg-white sticky-top rounded'>
                 <nav class='navbar navbar-expand-sm'>
                     <div class='container-fluid'>
                         <Link class='navbar-brand' to='/' title='Logichem'>
-                            <img src='Logo.jpeg' alt='#' width='320' height='95'/>
+                            <img src='./Logo3.jpeg' alt='#' width='200' height='100'/>
                         </Link>
                         <button class='navbar-toggler' type='button' data-bs-toggle='collapse'>
                             <span class='navbar-toggler-icon'></span>
@@ -31,6 +31,11 @@ function Navbar(){
                                 <li class='nav-item'>
                                     <Link class='nav-link link-text' to='/Projects' title='Projects'>
                                         Projects
+                                    </Link>
+                                </li>
+                                <li class='nav-item'>
+                                    <Link class='nav-link link-text' to='/Store' title='Store'>
+                                        Store
                                     </Link>
                                 </li>
                                 <li class='nav-item'>

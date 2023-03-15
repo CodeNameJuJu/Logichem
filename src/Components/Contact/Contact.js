@@ -1,33 +1,26 @@
-import React, {useState} from 'react';
+import React, {useRef} from 'react';
+import emailjs from '@emailjs/browser';
 
-const Contact = () => {
-    const [name, setName] = useState('');
-    const [email, setEmail] = useState('');
-    const [message, setMessage] = useState('');
-    const [emailSent, setEmailSent] = useState(false);
 
-    window.scrollTo(0, 0);
+export const Contact = () => {
+    const form = useRef();
 
-    const submit = () => {
-        if (name && email && message) {
-    
-            setName('');
-            setEmail('');
-            setMessage('');
-            setEmailSent(true);
-        } else {
-            alert('Please fill in all fields.');
-        }
-    }
+    const sendEmail = (e) => {
+        e.preventDefault();
 
-    const isValidEmail = email => {
-        const regex = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-        return regex.test(String(email).toLowerCase());
+        emailjs.sendForm('default_service', 'template_wwtnp2g', form.current, 'PrZ7kEJQwuAOirfKf')
+            .then((result) => {
+                alert('message sent successfully...');
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            })
+
     };
 
     return(
 
-        <div class='container p-3 mt-3 shadow-sm p-3 mb-5 rounded backgrnd'>
+            <div class='container p-3 mt-3 shadow-sm p-3 mb-5 rounded backgrnd'>
             <div class='row'>
 
                 <div class='col'>
@@ -42,27 +35,26 @@ const Contact = () => {
 
                 <div class='col'>
                     <br/>
-                    <form>
+                    <form  ref={form} onSubmit={sendEmail}>
                         <div className="mb-3 pt-0">
-                            <input type="text" placeholder="Your Name" value={name} onChange={e => setName(e.target.value)} 
+                            <input type="text" name="user_name" placeholder="Your Name"
                                    className="form-control px-3 py-3 placeholder-gray-400 text-gray-600 relative bg-white bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full"
                             />
                         </div>
                         <div className="mb-3 pt-0">
-                            <input type="email" placeholder="Your email address" value={email} onChange={e => setEmail(e.target.value)} 
+                            <input type="email" name="user_email" placeholder="Your email address"
                                    className="form-control px-3 py-3 placeholder-gray-400 text-gray-600 relative bg-white bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full"
                             />
                         </div>
                         <div className="mb-3 pt-0">
-                            <textarea placeholder="Your message" value={message} onChange={e => setMessage(e.target.value)}
+                            <textarea name="message" placeholder="Your message"
                                       className="form-control px-3 py-3 placeholder-gray-400 text-gray-600 relative bg-white bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full"
                             ></textarea>
                         </div>
                         <br />
                         <div className="mb-3 pt-0">
-                            <button className = "btn btn-primary" onClick={submit}>Send Message</button>
+                            <button className = "btn btn-primary" type="submit">Send Message</button>
                         </div>
-                        <span className={emailSent ? 'visible' : null}>Thank you for your message, we will be in touch in no time!</span>
                     </form>
                 <br />
                 <br />
@@ -71,7 +63,7 @@ const Contact = () => {
                         <i class='bx bxs-envelope' ></i>Email: <a href='mailto:info@logichem.co.za' title='Email Link'>info@logichem.co.za</a><br/>
                         <i class='bx bxs-phone'></i>Telephone: 011 465 2718<br/>
                         <a href="https://www.facebook.com/login/" class="fa fa-facebook"> </a>
-                        <a href="https://www.linkedin.com/login/" class="fa fa-linkedin"> </a>
+                        <a href="https://www.linkedin.com/company/logichem-control-pty-ltd/" class="fa fa-linkedin"> </a>
                     </div>
 
                 </div>
@@ -79,9 +71,8 @@ const Contact = () => {
                 <br />
             </div>
         </div>
-
+        
     );
-
 };
 
 export default Contact;
