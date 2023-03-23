@@ -11,7 +11,7 @@ function Navbar(){
                 <nav class='navbar navbar-expand-sm'>
                     <div class='container-fluid'>
                         <Link class='navbar-brand' to='/' title='Logichem'>
-                            <img src='./Logo3.jpeg' alt='#' width='200' height='100'/>
+                            <img src='./Logo.jpeg' alt='#' width='400' height='120'/>
                         </Link>
                         <button class='navbar-toggler' type='button' data-bs-toggle='collapse'>
                             <span class='navbar-toggler-icon'></span>

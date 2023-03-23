@@ -27,7 +27,7 @@ function Projects(){
                 </div>
 
                 <div class="view">  
-                <img src='./Project Photos/EDS/1 MCC-4.jpg' alt='#' width='400px' height='300px'/> 
+                <img src='./Project Photos/EDS 1/1 MCC-4.jpg' alt='#' width='400px' height='300px'/> 
                     <div class="mask">  
                         <h2>EDS</h2>
                     </div>  
@@ -41,14 +41,14 @@ function Projects(){
                 </div>
 
                 <div class="view">  
-                <img src='Omnia.jpg' alt='#' width='400px' height='300px'/> 
+                <img src='./EMDAS.jpg' alt='#' width='400px' height='300px'/> 
                     <div class="mask">  
                         <h2>Omnia</h2>
                     </div>  
                 </div>
 
                 <div class="view">  
-                    <img src='Manica.jpeg' alt='#' width='400px' height='300px'/>  
+                    <img src='./Manica.jpeg' alt='#' width='400px' height='300px'/>  
                     <div class="mask">  
                         <h2>Manica</h2>
                     </div>  

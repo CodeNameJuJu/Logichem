@@ -19,6 +19,27 @@
   max-width: 100.65%;
 }
 
+.row{
+  display:flex;
+}
+
+.row>div{
+  padding:15px;
+}
+
+.text{
+  text-align: left;
+  width:66.6666%
+}
+
+.image{
+  width:33.333%
+}
+
+.container .row:nth-child(2n+1){
+  flex-direction:row-reverse
+}
+
 .footer {
     left: 0;
     bottom: 0;
@@ -331,5 +352,3 @@ display: none;
 .backgrnd{
 background-color: rgb(190, 190, 190, 0.9);
 }
-
-

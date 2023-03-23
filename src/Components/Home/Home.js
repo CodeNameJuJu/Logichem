@@ -1,10 +1,5 @@
 import React from 'react';
-import {
-    ComposableMap,
-    Geographies,
-    Geography,
-  } from 'react-simple-maps';
-  
+import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 
 function Home(){
 
@@ -14,6 +9,9 @@ function Home(){
 
             <div>
                 <div class='container-xxl p-3 mt-3 bg-color mb-5'>
+                    <MapContainer scrollWheelZoom={false} center={[51.505, -0.09]} zoom={13} style={{ height: '400px', width: '100%' }}>
+                        <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+                    </MapContainer>
                     <div class='container mt-3 text-center text'>
 
                         <br />
@@ -49,14 +47,15 @@ function Home(){
                             </div>
                             <div class='card-body'>
                                 <p>
-                                    After more than 30 years of experience in the engineering sector, the management and team, 
-                                    realized that satisfied client are the key to success in a highly competitive industry.
-                                    Therefor our vision for the next 30 years is:
+                                With over 30 years of experience in the engineering sector, our management and team have recognized that satisfied clients are integral to success in a highly competitive industry. 
+                                As we look towards the future, our vision for the next three decades is centered around the following goals:
                                 </p>
                                 <br />
-                                <h6>To continue our hard work and dedication.</h6>
-                                <h6>To strive for more excellence and innovation.</h6>
-                                <h6>To improve project execution and client satisfaction.</h6>
+                                <ul>
+                                    <li>To continuously uphold our strong work ethic and unwavering dedication to quality</li>
+                                    <li>To pursue excellence and innovation through ongoing improvement of our services and solutions</li>
+                                    <li>To enhance our project execution capabilities to exceed client expectations and achieve unparalleled levels of satisfaction.</li>
+                                </ul>
                             </div>
 
                         </div>
@@ -71,11 +70,14 @@ function Home(){
                                 <h4 class='card-title'>Our Mission</h4>
                             </div>
                             <div class='card-body'>
-                                <p>Our position in the engineering field has given us our 30 years of experience. </p>
+                                <p>At Logichem, our mission is to leverage our extensive experience in the engineering field to deliver exceptional results for our clients. Over the past 30 years, 
+                                    we have honed our expertise in project execution, dedicated engineering, innovative approaches, and successful implementation of all EC&I related activities.
+                                    Our commitment to fostering an open and supportive work environment has enabled us to create a culture of continuous learning and improvement.</p>
                                 <br />
-                                <p>30 years of excellent project execution, dedicated engineers, innovation and implementation of all EC&I related activities and a work environment which is open and encouraged for learning.</p>
-                                <br />
-                                <p>We will keep and improve this work ethic, management approach and engineering application for the coming 30 years.</p>
+                                <p>Moving forward, we remain committed to upholding our exceptional work ethic, management approach, and engineering applications, 
+                                    as we continue to pursue excellence and innovation. Our focus on quality and dedication to client satisfaction will remain at the forefront of everything we do.
+                                    By leveraging our expertise, embracing innovation, and continuously striving for improvement, 
+                                    we aim to deliver value to our clients and maintain our position as a leading force in the engineering industry for the next 30 years and beyond.</p>
                             </div>
 
                             <br />
@@ -86,15 +88,15 @@ function Home(){
                     <div class='row'>
 
                         <div class='column'>
-                            <img src='./Project Photos/Gold/1.jpeg' alt='#' width = '100%' height='300px'/>
+                            <img src='./Mine.jpg' alt='#' width = '100%' height='350px'/>
                         </div> 
 
                         <div class='column'>
-                            <img src='./Project Photos/Gold/2.jpeg' alt='#' width = '100%' height='300px'/>
+                            <img src='./Manica.jpg' alt='#' width = '100%' height='350px'/>
                         </div> 
 
                         <div class='column'>
-                            <img src='./Project Photos/Gold/3.jpg' alt='#' width = '100%' height='300px'/>
+                            <img src='./Photo.jpg' alt='#' width = '100%' height='350px'/>
                     </div>
 
                     <div class='container mt-3 text-center text'>
