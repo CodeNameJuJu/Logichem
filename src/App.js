@@ -8,7 +8,6 @@ import Store from './Components/Store/Store';
 import Contact from './Components/Contact/Contact';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import background from './Background/drawing.png';
-import emailjs from '@emailjs/browser';
 
 function App() {
   return (

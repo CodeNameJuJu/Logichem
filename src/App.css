@@ -4,6 +4,14 @@
   box-sizing: border-box;
 }
 
+.home-heading{
+  position: absolute;
+  margin: auto;
+  padding-top: 50px;
+  top: 200px;
+  left: 500px;
+}
+
 .link-text{
   text-decoration: none;
   color: #3B5998;
@@ -20,20 +28,16 @@
 }
 
 .row{
-  display:flex;
-}
-
-.row>div{
-  padding:15px;
+  display: flex;
 }
 
 .text{
   text-align: left;
-  width:66.6666%
+  width:50%
 }
 
 .image{
-  width:33.333%
+  width:50%
 }
 
 .container .row:nth-child(2n+1){

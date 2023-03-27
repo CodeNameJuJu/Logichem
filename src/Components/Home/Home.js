@@ -1,5 +1,5 @@
-import React from 'react';
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
+import React from "react";
+import MapChart from "./MapChart";
 
 function Home(){
 
@@ -9,13 +9,15 @@ function Home(){
 
             <div>
                 <div class='container-xxl p-3 mt-3 bg-color mb-5'>
-                    <MapContainer scrollWheelZoom={false} center={[51.505, -0.09]} zoom={13} style={{ height: '400px', width: '100%' }}>
-                        <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-                    </MapContainer>
+                <div class='text-center'>
+                    <h1 class='home-heading'>Engineering a better world, one project at a time.</h1>
+                </div>
+                    {/* World Map */}
+                    <MapChart />
                     <div class='container mt-3 text-center text'>
 
                         <br />
-
+                        {/* History Paragraph */}
                         <div class='border-bottom pb-3 mb-3'>
                             <h3>History</h3>
                         </div>
@@ -38,11 +40,12 @@ function Home(){
 
                     <br />
                     
+                    {/* Vision Paragraph */}
                     <div class='row'>
                         <div class='col-md-5 column-alt'>
                             <br />
                             <br />
-                            <div>
+                            <div class='border-bottom'>
                                 <h4 class='card-title'>Our Vision</h4>
                             </div>
                             <div class='card-body'>
@@ -63,10 +66,11 @@ function Home(){
                         <br />
                         <br />
 
+                        {/* Mission Paragraph */}
                         <div class='col-md-5 column-alt'>
                             <br />
                             <br />
-                            <div>
+                            <div class='border-bottom'>
                                 <h4 class='card-title'>Our Mission</h4>
                             </div>
                             <div class='card-body'>
@@ -85,6 +89,7 @@ function Home(){
                         </div>
                     </div>
 
+                    {/* Accredidation Badges */}
                     <div class='row'>
 
                         <div class='column'>
@@ -106,6 +111,8 @@ function Home(){
                         <br />
                         <br />
 
+
+                        {/* Interactive Values section */}
                         <div class='card-header bg-color'>
                             <h4>Our Values</h4>
                         </div>
@@ -164,6 +171,7 @@ function Home(){
 
                 </div>
             </div>
+            {/* Partner Companies */}
             <div>
                 <div class='row bg-white logo-banner'>
 
@@ -185,9 +193,9 @@ function Home(){
             </div>
         </div>
     </div>
-
     )
 
 }
+
 
 export default Home;

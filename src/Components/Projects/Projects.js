@@ -5,8 +5,9 @@ function Projects(){
     window.scrollTo(0, 0);
 
     return(
-
+        
         <div class='container p-3 mt-3 bg-color mb-5'>
+            {/* Projects Section */}
             <div class='row'>
                 <div class='text-center typing'>
                     <h2 class='typing-effect'>Our Projects</h2>

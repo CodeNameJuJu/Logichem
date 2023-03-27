@@ -9,7 +9,11 @@ function Services(){
     <>        
         <div>
             <div class="container-xxl p-3 mt-3 bg-color mb-5">
-                <h2 class='typing typing-effect text-center'>Our Services</h2>
+                {/* Services Page */}
+                <div class='text-center typing'>
+                    <h1 class='typing-effect'>Our Services</h1>
+                </div>
+                {/* Image Carousel */}
                 <div class='container-fluid container mt-3'>
                     <div id="demo" class="carousel slide background-body" data-bs-ride="carousel">
                         <div class="carousel-indicators">
@@ -37,12 +41,14 @@ function Services(){
                     </div>
                 </div>
                 <br/>
+                {/* Services Section */}
                 <h2 class="text-center">Electrical Control & Instrumentation</h2>
                 <br/>
                 <div class="container">
+                    {/* Mineral Mining Section */}
                     <div class="row">
                         <div class="image">
-                            <img src="./minerals.jpg" alt="#" width='200' height='200' />
+                            <img src="./Mineral Mining.PNG" alt="#" width='600' height='450' />
                         </div>
                         <div class="text">
                             <h3><strong>Mineral Mining</strong></h3>
@@ -55,9 +61,10 @@ function Services(){
                             </ul>
                         </div>
                     </div>
+                    {/* Platinum Section */}
                     <div class="row">
                         <div class="image">
-                            <img src="./platinum.jpg" alt="#" width='80' height='80' />
+                            <img src="./Platinum.PNG" alt="#" width='600' height='450' />
                         </div>
                         <div class="text">
                             <h3><strong>Platinum</strong></h3>
@@ -70,9 +77,10 @@ function Services(){
                             </ul>
                         </div>
                     </div>
+                    {/* Gold Section */}
                     <div class="row">
                         <div class="image">
-                            <img src="./gold.jpg" alt="#" class="image-screen" width='80' height='80' />
+                            <img src="./Gold.PNG" alt="#" class="image-screen" width='600' height='450' />
                         </div>
                         <div class="text">
                             <h3><strong>Gold</strong></h3>
@@ -85,9 +93,10 @@ function Services(){
                             </ul>
                         </div>
                     </div>
+                    {/* Energy Section */}
                     <div class="row">
                         <div class="image">
-                            <img src="./energy.jpg" alt="#" width='80' height='80' />
+                            <img src="./Energy.PNG" alt="#" width='600' height='450' />
                         </div>
                         <div class="text">
                             <h3><strong>Energy</strong></h3>
@@ -100,9 +109,10 @@ function Services(){
                             </ul>
                         </div>
                     </div>
+                    {/* Water Processing Section */}
                     <div class="row">
                         <div class="image">
-                            <img src="./water.jpg" alt="#" width='80' height='80' />
+                            <img src="./Water.PNG" alt="#" width='600' height='450' />
                         </div>
                         <div class="text">
                             <h3><strong>Water Processing</strong></h3>
@@ -115,9 +125,10 @@ function Services(){
                             </ul>
                         </div>
                     </div>
+                    {/* Processes Section */}
                     <div class="row">
                     <div class="image">
-                        <img src="./processes.jpg" alt="#" width='80' height='80' />
+                        <img src="./Processes.PNG" alt="#" width='600' height='450' />
                     </div>
                     <div class="text">
                         <h3><strong>Processes</strong></h3>

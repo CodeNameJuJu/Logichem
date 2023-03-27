@@ -7,7 +7,7 @@ function Footer(){
     return(
 
         <footer class='footer py-3 my-4 shadow-sm p-3 mb-5'>
-
+            {/* Footer Section */}
             <div class='footer-text bg-dark text-wrap text-muted text-center'>
                 <pre>
                     <strong>
@@ -23,6 +23,7 @@ function Footer(){
                 <br/>
                 <br/>
                 
+                {/* Footer Links */}
                 <ul class='nav justify-content-center border-bottom pb-3 mb-3'>
                     <li class='nav-item'>
                         <Link class='nav-link footer-icon' to='/' title='Home'>
@@ -45,6 +46,7 @@ function Footer(){
                         </Link>
                     </li>
                 </ul>
+                {/* Footer Copyright */}
                 <div>
                     <p class='text-start text-muted'>© 2022 Copyright, All rights reserved.</p>
                 </div>

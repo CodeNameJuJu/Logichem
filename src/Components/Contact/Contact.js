@@ -22,7 +22,7 @@ export const Contact = () => {
 
             <div class='container p-3 mt-3 shadow-sm p-3 mb-5 rounded backgrnd'>
             <div class='row'>
-
+                {/* Maps Iframe */}
                 <div class='col'>
                     <div class='map-container'>
                         <iframe 
@@ -33,6 +33,7 @@ export const Contact = () => {
                     </div>
                 </div>
 
+                {/* Contact Form */}
                 <div class='col'>
                     <br/>
                     <form  ref={form} onSubmit={sendEmail}>
@@ -59,6 +60,7 @@ export const Contact = () => {
                 <br />
                 <br />
 
+                    {/* Contact Details */}
                     <div>
                         <i class='bx bxs-envelope' ></i>Email: <a href='mailto:info@logichem.co.za' title='Email Link'>info@logichem.co.za</a><br/>
                         <i class='bx bxs-phone'></i>Telephone: 011 465 2718<br/>
