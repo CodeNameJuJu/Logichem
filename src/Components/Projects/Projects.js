@@ -14,42 +14,42 @@ function Projects(){
                 </div>
 
                 <div class="view">  
-                <img src='./Project Photos/Water/1.jpg' alt='#' width='400px' height='300px'/>
+                <img src='./Project Photos/Water/1.jpg' alt='#' width='355px' height='300px'/>
                     <div class="mask">  
                         <h2>Water</h2>
                     </div>  
                 </div>
 
                 <div class="view">  
-                <img src='./Project Photos/Bisha/4.jpg' alt='#' width='400px' height='300px'/>
+                <img src='./Project Photos/Bisha/4.jpg' alt='#' width='355px' height='300px'/>
                     <div class="mask">  
                         <h2>Bisha</h2>
                     </div>  
                 </div>
 
                 <div class="view">  
-                <img src='./Project Photos/EDS 1/1 MCC-4.jpg' alt='#' width='400px' height='300px'/> 
+                <img src='./Project Photos/EDS 1/1 MCC-4.jpg' alt='#' width='355px' height='300px'/> 
                     <div class="mask">  
                         <h2>EDS</h2>
                     </div>  
                 </div>
 
                 <div class="view">  
-                <img src='./Project Photos/Gold/1.jpeg' alt='#' width='400px' height='300px'/>
+                <img src='./Project Photos/Gold/1.jpeg' alt='#' width='355px' height='300px'/>
                     <div class="mask">  
                         <h2>Gold</h2>
                     </div>  
                 </div>
 
                 <div class="view">  
-                <img src='./EMDAS.jpg' alt='#' width='400px' height='300px'/> 
+                <img src='./EMDAS.jpg' alt='#' width='355px' height='300px'/> 
                     <div class="mask">  
                         <h2>Omnia</h2>
                     </div>  
                 </div>
 
                 <div class="view">  
-                    <img src='./Manica.jpeg' alt='#' width='400px' height='300px'/>  
+                    <img src='./Manica.jpeg' alt='#' width='355px' height='300px'/>  
                     <div class="mask">  
                         <h2>Manica</h2>
                     </div>  

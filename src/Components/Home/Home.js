@@ -8,9 +8,9 @@ function Home(){
     return(
 
             <div>
-                <div class='container-xxl p-3 mt-3 bg-color mb-5'>
+                <div class='container-xxl p-3 mt-3 bg-color mb-5 text-center'>
                 <div class='text-center'>
-                    <h1 class='home-heading'>Engineering a better world, one project at a time.</h1>
+                    <h1 class='home-heading border-bottom'>Engineering a better world, one project at a time.</h1>
                 </div>
                     {/* World Map */}
                     <MapChart />
@@ -188,7 +188,7 @@ function Home(){
                     </div>
 
                     <div class='col'>
-                        <img src='./LP.png' alt='#' width = '55%' height='125px'/>
+                        <img src='./LP.png' alt='#' width = '50%' height='125px'/>
                     </div>
             </div>
         </div>

@@ -48,10 +48,10 @@ function Services(){
                     {/* Mineral Mining Section */}
                     <div class="row">
                         <div class="image">
-                            <img src="./Mineral Mining.PNG" alt="#" width='600' height='450' />
+                            <img src="./Mineral Mining.PNG" alt="#" width='655' height='450' />
                         </div>
                         <div class="text">
-                            <h3><strong>Mineral Mining</strong></h3>
+                            <h3 class="text-center"><strong>Mineral Mining</strong></h3>
                             <ul>
                                 <li>Increase production efficiency to reduce costs and improve profitability.</li>
                                 <li>Implement sustainable mining practices to minimize environmental impact.</li>
@@ -64,10 +64,10 @@ function Services(){
                     {/* Platinum Section */}
                     <div class="row">
                         <div class="image">
-                            <img src="./Platinum.PNG" alt="#" width='600' height='450' />
+                            <img src="./Platinum.PNG" alt="#" width='655' height='450' />
                         </div>
                         <div class="text">
-                            <h3><strong>Platinum</strong></h3>
+                            <h3 class="text-center"><strong>Platinum</strong></h3>
                             <ul>
                                 <li>Improve refining processes to increase purity and quality of platinum output.</li>
                                 <li>Increase the volume of platinum production to meet growing demand.</li>
@@ -80,10 +80,10 @@ function Services(){
                     {/* Gold Section */}
                     <div class="row">
                         <div class="image">
-                            <img src="./Gold.PNG" alt="#" class="image-screen" width='600' height='450' />
+                            <img src="./Gold.PNG" alt="#" class="image-screen" width='655' height='450' />
                         </div>
                         <div class="text">
-                            <h3><strong>Gold</strong></h3>
+                            <h3 class="text-center"><strong>Gold</strong></h3>
                             <ul>
                                 <li>Improve extraction processes to increase yield and reduce waste.</li>
                                 <li>Implement sustainable mining practices to minimize environmental impact.</li>
@@ -96,10 +96,10 @@ function Services(){
                     {/* Energy Section */}
                     <div class="row">
                         <div class="image">
-                            <img src="./Energy.PNG" alt="#" width='600' height='450' />
+                            <img src="./Energy.PNG" alt="#" width='655' height='450' />
                         </div>
                         <div class="text">
-                            <h3><strong>Energy</strong></h3>
+                            <h3 class="text-center"><strong>Energy</strong></h3>
                             <ul>
                                 <li>Increase the use of renewable energy sources to reduce reliance on fossil fuels.</li>
                                 <li>Develop and implement energy-efficient technologies to reduce energy consumption.</li>
@@ -112,10 +112,10 @@ function Services(){
                     {/* Water Processing Section */}
                     <div class="row">
                         <div class="image">
-                            <img src="./Water.PNG" alt="#" width='600' height='450' />
+                            <img src="./Water.PNG" alt="#" width='655' height='450' />
                         </div>
                         <div class="text">
-                            <h3><strong>Water Processing</strong></h3>
+                            <h3 class="text-center"><strong>Water Processing</strong></h3>
                             <ul>
                                 <li>Increase the efficiency and effectiveness of water treatment processes.</li>
                                 <li>Develop and implement sustainable water management practices.</li>
@@ -128,10 +128,10 @@ function Services(){
                     {/* Processes Section */}
                     <div class="row">
                     <div class="image">
-                        <img src="./Processes.PNG" alt="#" width='600' height='450' />
+                        <img src="./Processes.PNG" alt="#" width='655' height='450' />
                     </div>
                     <div class="text">
-                        <h3><strong>Processes</strong></h3>
+                        <h3 class="text-center"><strong>Processes</strong></h3>
                         <ul>
                             <li>Increase production efficiency to reduce costs and improve profitability.</li>
                             <li>Improve product quality and consistency.</li>
