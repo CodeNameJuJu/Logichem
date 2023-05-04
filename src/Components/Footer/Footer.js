@@ -41,6 +41,11 @@ function Footer(){
                         </Link>
                     </li>
                     <li className='nav-item'>
+                        <Link className='nav-link footer-icon' to='/Store' title='Store'>
+                            <i className='bx bx-cart bx-sm' />
+                        </Link>
+                    </li>
+                    <li className='nav-item'>
                         <Link className='nav-link footer-icon' to='/Contact' title='Contact'>
                             <i className='bx bx-envelope bx-sm' />
                         </Link>

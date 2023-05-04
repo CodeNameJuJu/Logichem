@@ -207,7 +207,7 @@
             "type": "MultiPolygon",
             "arcs": [[[-24, 170]], [[-30, 171, 172, -102]]],
             "id": "CHL",
-            "properties": { "name": "Chile" }
+            "properties": { "name": "Chile"}
           },
           {
             "type": "MultiPolygon",
@@ -250,7 +250,7 @@
               ]
             ],
             "id": "CHN",
-            "properties": { "name": "China" }
+            "properties": { "name": "China" }  
           },
           {
             "type": "Polygon",

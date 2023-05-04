@@ -10,7 +10,7 @@ function Home(){
             <div>
                 <div className='container-xxl p-3 mt-3 bg-color mb-5 text-center'>
                 <div className='text-center'>
-                    <h1 className='home-heading border-bottom'>Engineering a better world, one project at a time.</h1>
+                    <h1 className='home-heading'>Engineering a better world, one project at a time.</h1>
                 </div>
                     {/* World Map */}
                     <MapChart />

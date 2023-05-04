@@ -13,7 +13,7 @@ const geoUrl = "/features.json";
 
 const colorScale = scaleLinear()
   .domain([0.29, 0.68])
-  .range(["#ffffff", "#ffffff"]);
+  .range(["#ffffff", "#3B5998"]);
 
 const MapChart = () => {
   const [data, setData] = useState([]);
@@ -42,7 +42,7 @@ const MapChart = () => {
                 <Geography
                   key={geo.rsmKey}
                   geography={geo}
-                  fill={d ? colorScale(d["2017"]) : "#F5F4F6"}
+                  fill={d ? colorScale(d["2017"]) : "#3B5998"}
                 />
               );
             })

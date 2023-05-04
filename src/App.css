@@ -5,11 +5,8 @@
 }
 
 .home-heading{
-  position: absolute;
-  margin: auto;
-  padding-top: 50px;
-  top: 200px;
-  left: 300px;
+  position: relative;
+  padding-top: 75px;
 }
 
 .link-text{
