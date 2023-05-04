@@ -50,7 +50,7 @@ function Services(){
                         <div class="image">
                             <img src="./Mineral Mining.PNG" alt="#" width='655' height='450' />
                         </div>
-                        <div class="text">
+                        <div class="services-text">
                             <h3 class="text-center"><strong>Mineral Mining</strong></h3>
                             <ul>
                                 <li>Increase production efficiency to reduce costs and improve profitability.</li>
@@ -66,7 +66,7 @@ function Services(){
                         <div class="image">
                             <img src="./Platinum.PNG" alt="#" width='655' height='450' />
                         </div>
-                        <div class="text">
+                        <div class="services-text">
                             <h3 class="text-center"><strong>Platinum</strong></h3>
                             <ul>
                                 <li>Improve refining processes to increase purity and quality of platinum output.</li>
@@ -82,7 +82,7 @@ function Services(){
                         <div class="image">
                             <img src="./Gold.PNG" alt="#" class="image-screen" width='655' height='450' />
                         </div>
-                        <div class="text">
+                        <div class="services-text">
                             <h3 class="text-center"><strong>Gold</strong></h3>
                             <ul>
                                 <li>Improve extraction processes to increase yield and reduce waste.</li>
@@ -98,7 +98,7 @@ function Services(){
                         <div class="image">
                             <img src="./Energy.PNG" alt="#" width='655' height='450' />
                         </div>
-                        <div class="text">
+                        <div class="services-text">
                             <h3 class="text-center"><strong>Energy</strong></h3>
                             <ul>
                                 <li>Increase the use of renewable energy sources to reduce reliance on fossil fuels.</li>
@@ -114,7 +114,7 @@ function Services(){
                         <div class="image">
                             <img src="./Water.PNG" alt="#" width='655' height='450' />
                         </div>
-                        <div class="text">
+                        <div class="services-text">
                             <h3 class="text-center"><strong>Water Processing</strong></h3>
                             <ul>
                                 <li>Increase the efficiency and effectiveness of water treatment processes.</li>
@@ -130,7 +130,7 @@ function Services(){
                     <div class="image">
                         <img src="./Processes.PNG" alt="#" width='655' height='450' />
                     </div>
-                    <div class="text">
+                    <div class="services-text">
                         <h3 class="text-center"><strong>Processes</strong></h3>
                         <ul>
                             <li>Increase production efficiency to reduce costs and improve profitability.</li>

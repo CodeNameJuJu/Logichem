@@ -9,7 +9,7 @@
   margin: auto;
   padding-top: 50px;
   top: 200px;
-  left: 500px;
+  left: 300px;
 }
 
 .link-text{
@@ -28,15 +28,13 @@
 }
 
 .container{
-  margin: auto;
   padding-left: 0px;
   padding-right: 0px;
 }
 
-.text{
+.services-text{
   text-align: left;
   margin-top: 60px;
-  padding: 0px;
   width:50%
 }
 
@@ -166,7 +164,7 @@
 }
 
 .view {
-  width: 400px;
+  width: 415px;
   height: 300px;
   margin: 10px;
   float: left;
@@ -178,7 +176,7 @@
   cursor: default;
 }
 .view .mask, .view .content {
-  width: 400px;
+  width: 415px;
   height: 300px;
   position: absolute;
   overflow: hidden;
@@ -194,7 +192,7 @@
   color: rgb(0, 0, 0);
   text-align: center;
   position: relative;
-  font-size: 17px;
+  font-size: 20px;
   padding: 10px;
   background: rgba(255, 255, 255, 0.8);
   margin: 20px 0 0 0
@@ -203,7 +201,6 @@
   font-family: Georgia, serif;
   font-style: italic;
   font-size: 12px;
-  position: relative;
   color: #fff;
   padding: 10px 20px 20px;
   text-align: center
@@ -315,15 +312,14 @@ transition: transform 0.5s;
 color: #154e6b;
 }
 
-/* .tab-content can be styled as you like */
+
 main {
 max-width: 400px;
 margin: 0 auto;
 }
 main p {
   text-align: justify;
-  font-family: monospace;
-  font-size: 13px;
+  font-size: 16px;
 }
 summary {
 text-align: left;

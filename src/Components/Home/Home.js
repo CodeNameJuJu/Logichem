@@ -108,9 +108,6 @@ function Home(){
 
                         <br />
                         <br />
-                        <br />
-                        <br />
-
 
                         {/* Interactive Values section */}
                         <div class='card-header bg-color'>
