@@ -20,10 +20,10 @@ export const Contact = () => {
     
     return(
 
-            <div class='container p-3 mt-3 shadow-sm p-3 mb-5 rounded backgrnd'>
-            <div class='row'>
+            <div className='container p-3 mt-3 shadow-sm p-3 mb-5 rounded backgrnd'>
+            <div className='row'>
                 {/* Maps Iframe */}
-                <div class='col'>
+                <div className='col'>
                     <div>
                         <iframe 
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3585.6003017560424!2d28.025405150519838!3d-26.0139075625005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e95714f1efddc43%3A0xd91e7c33dc7e664!2sLogiChem%20Control%20(Pty)Ltd.!5e0!3m2!1sen!2sza!4v1656975328667!5m2!1sen!2sza" 
@@ -34,7 +34,7 @@ export const Contact = () => {
                 </div>
 
                 {/* Contact Form */}
-                <div class='col'>
+                <div className='col'>
                     <br/>
                     <form  ref={form} onSubmit={sendEmail}>
                         <div className="mb-3 pt-0">
@@ -62,9 +62,9 @@ export const Contact = () => {
 
                     {/* Contact Details */}
                     <div>
-                        <i class='bx bxs-envelope' ></i>Email: <a href='mailto:info@logichem.co.za' title='Email Link'>info@logichem.co.za</a><br/>
-                        <i class='bx bxs-phone'></i>Telephone: 011 465 2718<br/>
-                        <a href="https://www.linkedin.com/company/logichem-control-pty-ltd/" class="fa fa-linkedin"> </a>
+                        <i className='bx bxs-envelope' ></i>Email: <a href='mailto:info@logichem.co.za' title='Email Link'>info@logichem.co.za</a><br/>
+                        <i className='bx bxs-phone'></i>Telephone: 011 465 2718<br/>
+                        <a href="https://www.linkedin.com/company/logichem-control-pty-ltd/" className="fa fa-linkedin"> </a>
                     </div>
 
                 </div>

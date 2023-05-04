@@ -11,7 +11,7 @@ import background from './Background/drawing.png';
 
 function App() {
   return (
-    <div class="bg-white">
+    <div className="bg-white">
       <BrowserRouter>
         <Navbar />
         <div style={{ backgroundImage: `url(${background})` , backgroundrepeat: 'no-repeat'}}>

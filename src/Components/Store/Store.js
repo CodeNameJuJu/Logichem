@@ -7,7 +7,7 @@ function Store(){
     return(
 
         <div>
-            <div class='container-xxl p-3 mt-3 bg-color mb-5 text-center'>
+            <div className='container-xxl p-3 mt-3 bg-color mb-5 text-center'>
             <br />
             <br />
             <br />

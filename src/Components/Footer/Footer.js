@@ -6,9 +6,9 @@ function Footer(){
 
     return(
 
-        <footer class='footer py-3 my-4 shadow-sm p-3 mb-5'>
+        <footer className='footer py-3 my-4 shadow-sm p-3 mb-5'>
             {/* Footer Section */}
-            <div class='footer-text bg-dark text-wrap text-muted text-center'>
+            <div className='footer-text bg-dark text-wrap text-muted text-center'>
                 <pre>
                     <strong>
                         Over the past 30 odd years, we have earned a reputation for engineering services of the highest quality,
@@ -24,31 +24,31 @@ function Footer(){
                 <br/>
                 
                 {/* Footer Links */}
-                <ul class='nav justify-content-center border-bottom pb-3 mb-3'>
-                    <li class='nav-item'>
-                        <Link class='nav-link footer-icon' to='/' title='Home'>
-                            <i class='bx bx-home-alt bx-sm' />
+                <ul className='nav justify-content-center border-bottom pb-3 mb-3'>
+                    <li className='nav-item'>
+                        <Link className='nav-link footer-icon' to='/' title='Home'>
+                            <i className='bx bx-home-alt bx-sm' />
                         </Link>
                     </li>
-                    <li class='nav-item'>
-                        <Link class='nav-link footer-icon' to='/Services' title='Services'>
-                            <i class='bx bx-hard-hat bx-sm' />
+                    <li className='nav-item'>
+                        <Link className='nav-link footer-icon' to='/Services' title='Services'>
+                            <i className='bx bx-hard-hat bx-sm' />
                         </Link>
                     </li>
-                    <li class='nav-item'>
-                        <Link class='nav-link footer-icon' to='/Projects' title='Projects'>
-                            <i class='bx bx-folder bx-sm' />
+                    <li className='nav-item'>
+                        <Link className='nav-link footer-icon' to='/Projects' title='Projects'>
+                            <i className='bx bx-folder bx-sm' />
                         </Link>
                     </li>
-                    <li class='nav-item'>
-                        <Link class='nav-link footer-icon' to='/Contact' title='Contact'>
-                            <i class='bx bx-envelope bx-sm' />
+                    <li className='nav-item'>
+                        <Link className='nav-link footer-icon' to='/Contact' title='Contact'>
+                            <i className='bx bx-envelope bx-sm' />
                         </Link>
                     </li>
                 </ul>
                 {/* Footer Copyright */}
                 <div>
-                    <p class='text-start text-muted'>© 2022 Copyright, All rights reserved.</p>
+                    <p className='text-start text-muted'>© 2022 Copyright, All rights reserved.</p>
                 </div>
             </div>
 
