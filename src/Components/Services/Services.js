@@ -61,38 +61,7 @@ function Services(){
                             </ul>
                         </div>
                     </div>
-                    {/* Platinum Section */}
-                    <div className="row">
-                        <div className="image">
-                            <img src="./Platinum.PNG" alt="#" width='655' height='450' />
-                        </div>
-                        <div className="services-text">
-                            <h3 className="text-center"><strong>Platinum</strong></h3>
-                            <ul>
-                                <li>Improve refining processes to increase purity and quality of platinum output.</li>
-                                <li>Increase the volume of platinum production to meet growing demand.</li>
-                                <li>Conduct research to identify and extract new sources of platinum.</li>
-                                <li>Develop and implement sustainable mining practices to reduce environmental impact.</li>
-                                <li>Improve safety measures for workers and reduce the risk of accidents.</li>
-                            </ul>
-                        </div>
-                    </div>
-                    {/* Gold Section */}
-                    <div className="row">
-                        <div className="image">
-                            <img src="./Gold.PNG" alt="#" class="image-screen" width='655' height='450' />
-                        </div>
-                        <div className="services-text">
-                            <h3 className="text-center"><strong>Gold</strong></h3>
-                            <ul>
-                                <li>Improve extraction processes to increase yield and reduce waste.</li>
-                                <li>Implement sustainable mining practices to minimize environmental impact.</li>
-                                <li>Conduct research to identify and extract new sources of gold.</li>
-                                <li>Increase the volume of gold production to meet growing demand.</li>
-                                <li>Develop advanced technologies to improve the efficiency and safety of mining operations.</li>
-                            </ul>
-                        </div>
-                    </div>
+                
                     {/* Energy Section */}
                     <div className="row">
                         <div className="image">

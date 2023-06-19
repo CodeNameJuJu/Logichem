@@ -10,7 +10,8 @@ function Home(){
             <div>
                 <div className='container-xxl p-3 mt-3 bg-color mb-5 text-center'>
                 <div className='text-center'>
-                    <h1 className='home-heading'>Engineering a better world, one project at a time.</h1>
+                    <h1 className='home-heading'><strong>Engineering a better world,</strong></h1>
+                    <h1><strong>one project at a time.</strong></h1>
                 </div>
                     {/* World Map */}
                     <MapChart />
@@ -173,19 +174,23 @@ function Home(){
                 <div className='row bg-white logo-banner'>
 
                     <div className='col'>
-                        <img src='./EDS.jpg' alt='#' width = '60%' height='125px'/>
+                        <img src='./ECA.jpg' alt='#' width = '60%' height='125px'/>
                     </div> 
 
                     <div className='col'>
-                        <img src='./EHL.png' alt='#' width = '65%' height='125px'/>
+                        <img src='./ECB.jpg' alt='#' width = '65%' height='125px'/>
                     </div> 
 
                     <div className='col'>
-                        <img src='./Howden.png' alt='#' width = '60%' height='125px'/>
+                        <img src='./ECSA.jpg' alt='#' width = '60%' height='125px'/>
                     </div>
 
                     <div className='col'>
-                        <img src='./LP.png' alt='#' width = '50%' height='125px'/>
+                        <img src='./ETAP.jpg' alt='#' width = '50%' height='125px'/>
+                    </div>
+
+                    <div className='col'>
+                        <img src='./SAIEE.jpg' alt='#' width = '50%' height='125px'/>
                     </div>
             </div>
         </div>
