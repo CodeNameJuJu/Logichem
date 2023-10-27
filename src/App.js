@@ -1,20 +1,19 @@
 import React from 'react';
-import Navbar from './Components/Navbar/Navbar';
-import Footer from './Components/Footer/Footer';
-import Home from './Components/Home/Home';
-import Projects from './Components/Projects/Projects';
-import Services from './Components/Services/Services';
-import Store from './Components/Store/Store';
-import Contact from './Components/Contact/Contact';
+import Navbar from './Components/Navbar';
+import Footer from './Components/Footer';
+import Home from './Views/Home';
+import Projects from './Views/Projects';
+import Services from './Views/Services';
+import Store from './Views/Store';
+import Contact from './Views/Contact';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import background from './Background/drawing.png';
 
 function App() {
   return (
     <div className="bg-white">
       <BrowserRouter>
         <Navbar />
-        <div style={{ backgroundImage: `url(${background})` , backgroundrepeat: 'no-repeat'}}>
+        <div >
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/Services" element={<Services />} />

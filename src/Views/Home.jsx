@@ -1,5 +1,5 @@
 import React from "react";
-import MapChart from "./MapChart";
+import MapChart from "../Components/MapChart";
 
 function Home(){
 
